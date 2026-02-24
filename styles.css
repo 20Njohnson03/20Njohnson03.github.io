@@ -14,7 +14,7 @@ body, html {
       
 .bg {
     /* The image used */
-    background-image: url("src\img\polygons-modified-blue.png");
+    background-image: url("polygons-modified-blue.png");
     
     /* Full height */
     height: 100%;
