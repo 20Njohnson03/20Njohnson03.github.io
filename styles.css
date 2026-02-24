@@ -1,8 +1,9 @@
 body {
-    background-color: lightblue;
+    background-color: whitesmoke;
     }
     
 h1 {
     color: navy;
+    background-color: lightblue;
     margin-left: 20px;
     }
