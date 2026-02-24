@@ -17,6 +17,7 @@ body, html {
 .bg {
     /* The image used */
     background-image: url("polygons-modified-blue.png");
-
-
+    float: right;
+    width: 10%;
+    height: 100%;
     }
