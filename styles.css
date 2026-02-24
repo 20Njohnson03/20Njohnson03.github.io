@@ -1,11 +1,13 @@
 body {
     background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
     }
     
 h1 {
     color: navy;
     background-color: lightblue;
     margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
     }
 
 body, html {
@@ -15,12 +17,6 @@ body, html {
 .bg {
     /* The image used */
     background-image: url("polygons-modified-blue.png");
-    
-    /* Full height */
-    height: 100%;
-    
-    /* Center and scale the image nicely */
-    background-repeat: no-repeat;
-    background-size: cover;
-    float: right;
+
+
     }
