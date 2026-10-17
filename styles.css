@@ -1,3 +1,11 @@
+:root{
+    --main-font: "noto-sans"
+
+    --color-primary: 
+
+}
+
+
 body {
     background-color: whitesmoke;
     font-family: 'Arial', sans-serif;
