@@ -1,28 +1,45 @@
 :root{
-    --main-font: "noto-sans"
-
-    --color-primary: 
+    --main-font: "noto-sans";
+    --color-primary: #4682b4;
+    --color-primary-10: color-mix(in oklab, var(--color-primary0) 50%, #FFFFFF 50%);
+    --color-secondary: #b47846;
 
 }
 
+html{
+    padding: 0px;
+    margin: 0px;
+}
 
 body {
     background-color: whitesmoke;
     font-family: 'Arial', sans-serif;
-
+    padding: 0px;
     }
     
 h1 {
-    color: navy;
-    background-color: lightblue;
-    margin-left: 20px;
+    color: var(--color-primary);
+    background-color: var(--color-primary-10);
+    margin: 0px;
     font-family: 'Courier New', Courier, monospace;
     border-bottom: 5px solid navy;
     }
 
-body, html {
-    height: 100%;
-    }
+.flex-row {
+    display: flex;          /* turns this element into a flex container */
+    flex-direction: row;    /* row | column | row-reverse | column-reverse */
+    justify-content: space-between; /* main‑axis alignment */
+    align-items: center;    /* cross‑axis alignment */
+    gap: 16px;
+}
+
+.flex-col {
+    display: flex;          /* turns this element into a flex container */
+    flex-direction: column;    /* row | column | row-reverse | column-reverse */
+    justify-content: space-between; /* main‑axis alignment */
+    align-items: center;    /* cross‑axis alignment */
+    gap: 16px;
+}
       
 .bg {
     /* The image used */
